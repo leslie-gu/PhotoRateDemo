@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE74BD041AE745DB009FBD3A /* PhotoRateListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74BCF81AE745DB009FBD3A /* PhotoRateListView.m */; };
+		CE74BD051AE745DB009FBD3A /* PhotoRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74BCFA1AE745DB009FBD3A /* PhotoRateModel.m */; };
+		CE74BD061AE745DB009FBD3A /* PhotoRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74BCFC1AE745DB009FBD3A /* PhotoRateView.m */; };
+		CE74BD071AE745DB009FBD3A /* PhotoRateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE74BCFD1AE745DB009FBD3A /* PhotoRateView.xib */; };
+		CE74BD081AE745DB009FBD3A /* RadarAnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74BCFF1AE745DB009FBD3A /* RadarAnimateView.m */; };
+		CE74BD091AE745DB009FBD3A /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74BD011AE745DB009FBD3A /* UIView+Addition.m */; };
+		CE74BD311AE77C0D009FBD3A /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74BD301AE77C0D009FBD3A /* UIView+AutoLayout.m */; };
 		CE904DE11AE5E25F00CBD81C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE904DE01AE5E25F00CBD81C /* main.m */; };
 		CE904DE41AE5E25F00CBD81C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE904DE31AE5E25F00CBD81C /* AppDelegate.m */; };
 		CE904DE71AE5E25F00CBD81C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE904DE61AE5E25F00CBD81C /* ViewController.m */; };
@@ -27,13 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE74BCF71AE745DB009FBD3A /* PhotoRateListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoRateListView.h; sourceTree = "<group>"; };
+		CE74BCF81AE745DB009FBD3A /* PhotoRateListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoRateListView.m; sourceTree = "<group>"; };
+		CE74BCF91AE745DB009FBD3A /* PhotoRateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoRateModel.h; sourceTree = "<group>"; };
+		CE74BCFA1AE745DB009FBD3A /* PhotoRateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoRateModel.m; sourceTree = "<group>"; };
+		CE74BCFB1AE745DB009FBD3A /* PhotoRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoRateView.h; sourceTree = "<group>"; };
+		CE74BCFC1AE745DB009FBD3A /* PhotoRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoRateView.m; sourceTree = "<group>"; };
+		CE74BCFD1AE745DB009FBD3A /* PhotoRateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoRateView.xib; sourceTree = "<group>"; };
+		CE74BCFE1AE745DB009FBD3A /* RadarAnimateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarAnimateView.h; sourceTree = "<group>"; };
+		CE74BCFF1AE745DB009FBD3A /* RadarAnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarAnimateView.m; sourceTree = "<group>"; };
+		CE74BD001AE745DB009FBD3A /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		CE74BD011AE745DB009FBD3A /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		CE74BD2F1AE77C0D009FBD3A /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		CE74BD301AE77C0D009FBD3A /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		CE904DDB1AE5E25F00CBD81C /* PhotoRateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoRateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE904DDF1AE5E25F00CBD81C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE904DE01AE5E25F00CBD81C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE904DE21AE5E25F00CBD81C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE904DE31AE5E25F00CBD81C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE904DE51AE5E25F00CBD81C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE904DE61AE5E25F00CBD81C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE904DE61AE5E25F00CBD81C /* ViewController.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE904DE91AE5E25F00CBD81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE904DEB1AE5E25F00CBD81C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE904DEE1AE5E25F00CBD81C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +80,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE74BCF51AE745DB009FBD3A /* PhotoRateKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE74BCF61AE745DB009FBD3A /* ListRequestManager */,
+				CE74BCF71AE745DB009FBD3A /* PhotoRateListView.h */,
+				CE74BCF81AE745DB009FBD3A /* PhotoRateListView.m */,
+				CE74BCF91AE745DB009FBD3A /* PhotoRateModel.h */,
+				CE74BCFA1AE745DB009FBD3A /* PhotoRateModel.m */,
+				CE74BCFB1AE745DB009FBD3A /* PhotoRateView.h */,
+				CE74BCFC1AE745DB009FBD3A /* PhotoRateView.m */,
+				CE74BCFD1AE745DB009FBD3A /* PhotoRateView.xib */,
+				CE74BCFE1AE745DB009FBD3A /* RadarAnimateView.h */,
+				CE74BCFF1AE745DB009FBD3A /* RadarAnimateView.m */,
+				CE74BD001AE745DB009FBD3A /* UIView+Addition.h */,
+				CE74BD011AE745DB009FBD3A /* UIView+Addition.m */,
+			);
+			path = PhotoRateKit;
+			sourceTree = "<group>";
+		};
+		CE74BCF61AE745DB009FBD3A /* ListRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ListRequestManager;
+			sourceTree = "<group>";
+		};
 		CE904DD21AE5E25F00CBD81C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,9 @@
 		CE904DDD1AE5E25F00CBD81C /* PhotoRateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE74BD2F1AE77C0D009FBD3A /* UIView+AutoLayout.h */,
+				CE74BD301AE77C0D009FBD3A /* UIView+AutoLayout.m */,
+				CE74BCF51AE745DB009FBD3A /* PhotoRateKit */,
 				CE904DE21AE5E25F00CBD81C /* AppDelegate.h */,
 				CE904DE31AE5E25F00CBD81C /* AppDelegate.m */,
 				CE904DE51AE5E25F00CBD81C /* ViewController.h */,
@@ -202,6 +251,7 @@
 				CE904DEA1AE5E25F00CBD81C /* Main.storyboard in Resources */,
 				CE904DEF1AE5E25F00CBD81C /* LaunchScreen.xib in Resources */,
 				CE904DEC1AE5E25F00CBD81C /* Images.xcassets in Resources */,
+				CE74BD071AE745DB009FBD3A /* PhotoRateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +272,12 @@
 				CE904DE71AE5E25F00CBD81C /* ViewController.m in Sources */,
 				CE904DE41AE5E25F00CBD81C /* AppDelegate.m in Sources */,
 				CE904DE11AE5E25F00CBD81C /* main.m in Sources */,
+				CE74BD061AE745DB009FBD3A /* PhotoRateView.m in Sources */,
+				CE74BD311AE77C0D009FBD3A /* UIView+AutoLayout.m in Sources */,
+				CE74BD091AE745DB009FBD3A /* UIView+Addition.m in Sources */,
+				CE74BD081AE745DB009FBD3A /* RadarAnimateView.m in Sources */,
+				CE74BD041AE745DB009FBD3A /* PhotoRateListView.m in Sources */,
+				CE74BD051AE745DB009FBD3A /* PhotoRateModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +474,7 @@
 				CE904E001AE5E25F00CBD81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE904E011AE5E25F00CBD81C /* Build configuration list for PBXNativeTarget "PhotoRateDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +483,7 @@
 				CE904E031AE5E25F00CBD81C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

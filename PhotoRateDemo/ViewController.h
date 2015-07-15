@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PhotoRateListView.h"
 @interface ViewController : UIViewController
 
 
